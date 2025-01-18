@@ -1,3 +1,5 @@
+![qr](/images/qrcode_github.com.png)
+
 Go to [exosphere](https://jetstream2.exosphere.app/exosphere/)
 
 Click "Add allocation"
