@@ -2,43 +2,43 @@ Go to [exosphere](https://jetstream2.exosphere.app/exosphere/)
 
 Click "Add allocation"
 
-![add allocation](/images/add_allocation.png)
+![add allocation](/images/add_allocation.PNG)
 
 Click Add ACCESS Account
 
-![add account](/images/add_account.png)
+![add account](/images/add_account.PNG)
 
 Select ACCESS CI (XSEDE) under "Select an Identity Provider" and click "LOG ON". Enter your ACCESS ID and Password and complete 2FA login
 
-![login](/images/login_to_access.png)
+![login](/images/login_to_access.PNG)
 
 Select "CIS240457 — AI Agents on Jetstream2 Training for UH" and click "Choose"
 
-![select allocation](/images/select_allocation.png)
+![select allocation](/images/select_allocation.PNG)
 
 Click the allocation tile that was added
 
-![allocations](/images/allocations.png)
+![allocations](/images/allocations.PNG)
 
 Click "Create" in the top right corner and click "Instance" in the dropdown
 
-![create instance](/images/create_instance.png)
+![create instance](/images/create_instance.PNG)
 
 Select Ubuntu 24.04
 
-![ubuntu](/images/ubuntu.png)
+![ubuntu](/images/ubuntu.PNG)
 
 Name your instance llm-tutorial-<your_last_name> or something similar. This name must be unique so make sure to include your last name or another unique identifier. Select "g3.small" as the flavor and click "Create"
 
-![instance config](/images/instance_config.png)
+![instance config](/images/instance_config.PNG)
 
 Click on the "Instances" tile and select the VM you just created. It may take a few minutes for the instance to initialize and be ready to use.
 
-![instance](/images/instance.png)
+![instance](/images/instance.PNG)
 
 Open a terminal and ssh to your VM. You can find the IP address under Credentials in your instance details. Your username will be exouser. Once your instance is fully instantiated there should be a "Show" button next to the Passphrase. This will be your password.
 
-![credentials](/images/credentials.png)
+![credentials](/images/credentials.PNG)
 
 Next you will set up an LLM on your instance using the tutorial [here](https://docs.jetstream-cloud.org/general/llm/)
 
